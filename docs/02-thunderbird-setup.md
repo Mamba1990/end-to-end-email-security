@@ -1,28 +1,28 @@
-# 02 – Configuration de Thunderbird avec Gmail
+# 02 – Configuring Thunderbird with Gmail
 
-## Paramètres du compte
-| Serveur | Protocole | Hôte | Port | Sécurité | Authentification |
+## Account settings
+| Server | Protocol | Host | Port | Security | Authentication |
 |---|---|---|---|---|---|
-| Entrant | IMAP | imap.gmail.com | 993 | SSL/TLS | OAuth2 |
-| Sortant | SMTP | smtp.gmail.com | 465 | SSL/TLS | OAuth2 |
+| Incoming | IMAP | imap.gmail.com | 993 | SSL/TLS | OAuth2 |
+| Outgoing | SMTP | smtp.gmail.com | 465 | SSL/TLS | OAuth2 |
 
-![Configuration manuelle](../captures/02-config-manuelle.png)
+![Manual configuration](../captures/02-config-manuelle.png)
 
-## Choix techniques
-- **IMAP plutôt que POP3** : les mails restent sur le serveur Gmail, ce qui garde les messages de test synchronisés.
-- **SSL/TLS** : la connexion entre Thunderbird et Gmail est chiffrée.
-- **OAuth2** : Google délivre un jeton à Thunderbird. Le mot de passe du compte n'est jamais stocké localement, et l'accès peut être révoqué depuis le compte Google.
+## Technical choices
+- **IMAP rather than POP3**: emails stay on the Gmail server, so test messages stay in sync.
+- **SSL/TLS**: the connection between Thunderbird and Gmail is encrypted.
+- **OAuth2**: Google issues a token to Thunderbird. The account password is never stored locally, and access can be revoked from the Google account.
 
-## Test d'envoi
-Mail envoyé à ma propre adresse et reçu correctement :
+## Send test
+Email sent to my own address and received successfully:
 
-![Mail de test reçu](../captures/02-mail-test.png)
+![Test email received](../captures/02-mail-test.png)
 
-## À retenir : TLS ≠ chiffrement de bout en bout
+## Key takeaway: TLS ≠ end-to-end encryption
 | | TLS | PGP / S/MIME |
 |---|---|---|
-| Protège | le transport (poste ↔ serveur) | le message lui-même |
-| Mail stocké chez Gmail | **en clair** pour Google | **chiffré**, illisible par Google |
-| Authentifie l'expéditeur | non | oui (signature) |
+| Protects | the transport (computer ↔ server) | the message itself |
+| Email stored at Gmail | **readable** by Google | **encrypted**, unreadable by Google |
+| Authenticates the sender | no | yes (signature) |
 
-TLS est nécessaire, mais il ne suffit pas. Les étapes suivantes ajoutent la sécurité **de bout en bout** avec PGP puis S/MIME.
+TLS is necessary but not sufficient. The following steps add **end-to-end** security with PGP and then S/MIME.
