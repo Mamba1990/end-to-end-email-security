@@ -1,0 +1,13 @@
+# === Fichiers sensibles : NE JAMAIS POUSSER ===
+*.key
+*.p12
+*.pfx
+*.pem
+ca.key
+*.rev
+*revocation*
+*secret*
+secring*
+private-keys-v1.d/
+.gnupg/
+*.srl
