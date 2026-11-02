@@ -1,0 +1,5 @@
+pub   rsa3072 2026-11-02 [SC] [expires: 2028-11-01]
+      03AB 1FAF 3749 2095 B91D  FC29 9346 D9B8 0548 7943
+uid                      Hafsa DAOUDIM <hafsa.daoudim@gmail.com>
+sub   rsa3072 2026-11-02 [E] [expires: 2028-11-01]
+
