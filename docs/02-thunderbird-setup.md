@@ -6,7 +6,7 @@
 | Incoming | IMAP | imap.gmail.com | 993 | SSL/TLS | OAuth2 |
 | Outgoing | SMTP | smtp.gmail.com | 465 | SSL/TLS | OAuth2 |
 
-![Manual configuration](../captures/02-config-manuelle.png)
+![Manual configuration](../captures/02-manual-config.png)
 
 ## Technical choices
 - **IMAP rather than POP3**: emails stay on the Gmail server, so test messages stay in sync.
@@ -16,7 +16,7 @@
 ## Send test
 Email sent to my own address and received successfully:
 
-![Test email received](../captures/02-mail-test.png)
+![Test email received](../captures/02-test-email.png)
 
 ## Key takeaway: TLS ≠ end-to-end encryption
 | | TLS | PGP / S/MIME |
