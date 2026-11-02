@@ -11,9 +11,9 @@
 | Key ID | `9346D9B805487943` |
 | Fingerprint | `03AB 1FAF 3749 2095 B91D  FC29 9346 D9B8 0548 7943` |
 
+![Key generation dialog](../captures/03-key-generation.png)
 ![Key selected in account settings](../captures/03-key-selected.png)
 ![Key properties](../captures/03-key-properties.png)
-![Key structure](../captures/03-key-structure.png)
 
 > **Key ID = last 64 bits of the fingerprint**: `...9346 D9B8 0548 7943`.
 > The fingerprint is a SHA-1 hash of the public key packet (v4 keys). It is what two people compare over a trusted channel to verify a key (see step 05).
