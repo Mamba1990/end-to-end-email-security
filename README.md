@@ -19,7 +19,7 @@ for email using the IETF standards **OpenPGP** and **S/MIME**.
 - [x] 01 – Algorithms supported by GnuPG
 - [x] 02 – Thunderbird configuration
 - [x] 03 – PGP key pair generation and analysis
-- [ ] 04 – PGP signed / encrypted emails
+- [x] 04 – PGP signed / encrypted emails
 - [ ] 05 – PGP key exchange and certification
 - [ ] 06 – PGP key revocation
 - [ ] 07 – S/MIME key, CSR and X.509 certificate
