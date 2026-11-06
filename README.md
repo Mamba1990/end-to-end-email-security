@@ -1,7 +1,7 @@
 # 🔐 End-to-End Email Security with OpenPGP and S/MIME
 
 EFM project, supervised by Prof. Ahmed EL-YAHYAOUI.
-Author: **Your Name**, Program/Year
+Author: **Hafsa DAOUDIM**, JobInTech/2026
 
 ## Objectives
 Implement confidentiality, authentication, integrity and non-repudiation
