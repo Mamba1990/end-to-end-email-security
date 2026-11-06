@@ -1,0 +1,12 @@
+Content-Type: multipart/signed; micalg=pgp-sha256;
+ protocol="application/pgp-signature";
+Content-Type: multipart/mixed; boundary="------------H1j7VMtwV4JasoqX1PCbiGKG";
+ protected-headers="v1"
+Content-Type: multipart/mixed; boundary="------------X0I9Q3oeiKbO9S5OmSjMt0wT"
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Type: application/pgp-keys; name="OpenPGP_0x9346D9B805487943.asc"
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----END PGP PUBLIC KEY BLOCK-----
+Content-Type: application/pgp-signature; name="OpenPGP_signature.asc"
+-----BEGIN PGP SIGNATURE-----
+-----END PGP SIGNATURE-----
